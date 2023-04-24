@@ -63,7 +63,7 @@
     }
     
     input:focus, textarea:focus {
-        border-color: lightskyblue;
+        border-color: #228c22;
     }
     
     .container {
@@ -94,7 +94,7 @@
     }
     
     .blue{
-        color: lightskyblue;
+        color: #228c22;
     }
     
     .click{
@@ -198,13 +198,14 @@
     
     */
     .pfp {
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-        border: 2px solid lightSkyBlue;
-        box-shadow: 0 0 5px lightSkyBlue;
+        width: 160px;
+        height: 160px;
+        border-radius: 5%;
+        border: 2px solid #228c22;
+        box-shadow: 0 0 5px #228c22;
         object-fit: cover;
-        transform: translate(500px, 180px);
+        transform: translate(520px, 170px);
+
     }
 
     #landing-page{
@@ -232,7 +233,7 @@
     }
     
     .social__list{
-        margin-top: 400px;
+        margin-top: 370px;
         display: flex;
         justify-content: center;
         position: relative;
@@ -242,10 +243,10 @@
     }
     
     .social__link{
-        font-size: 4em;
+        font-size: 3em;
         color: black;
         border-radius: 29px;
-        margin: 0 104px;
+        margin: 0 60px;
         padding-top: 16px;
         animation: animate 3s linear infinite;
         text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
@@ -616,7 +617,7 @@
       }
       
       .form__submit {
-        background-color: lightskyblue;
+        background-color: #228c22;
         border: 2px solid black;
         color: white;
         font-weight: 700;
@@ -716,6 +717,9 @@
     .shape {
         position: fixed;
         z-index: -1;
+        width: 25px;
+        height: 25px;
+        margin-left: 5%;
     }
     .shape--0 {
         top: 15vh;

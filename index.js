@@ -43,7 +43,7 @@ function contact(event) {
     .catch(() => {
       loading.classList.remove("modal__overlay--visible");
       alert(
-        "The email service is temporarily unavailable. Please contact me directly on email@email.com"
+        "The email service is temporarily unavailable. Please contact me directly on byoung766363@gmail.com"
       );
     });
 }
@@ -54,5 +54,5 @@ function toggleModal() {
     return document.body.classList.remove("modal--open");
   }
   isModalOpen = true;
-  document.body.classList += "modal--open";
+  document.body.classList += " modal--open";
 }
