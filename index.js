@@ -31,10 +31,10 @@ function contact(event) {
   loading.classList += " modal__overlay--visible";
   emailjs
     .sendForm(
-      "service_80ih0if",
-      "template_d9refyl",
+      "service_ikpqkcn",
+      "template_c5d494o",
       event.target,
-      "user_K1PoFs8pB2YVWStDxrUls"
+      "ZfxGeYr6odjE2hv7P"
     )
     .then(() => {
       loading.classList.remove("modal__overlay--visible");

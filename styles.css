@@ -784,10 +784,10 @@
     /* small phones */
     @media (max-width: 480px) {
         .title {
-            font-size: 52px;
+            font-size: 36px;
         }
         .header__para {
-            font-size: 12px;
+            font-size: 8px;
         }
         .nav__link:first-child {
             display: none;
